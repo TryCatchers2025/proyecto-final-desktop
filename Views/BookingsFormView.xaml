@@ -1,17 +1,49 @@
 ﻿<UserControl x:Class="PereMaria.GestorHotel.Views.BookingsFormView"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:local="clr-namespace:PereMaria.GestorHotel.Views"
-    xmlns:controllers="clr-namespace:PereMaria.GestorHotel.Controllers"
-    mc:Ignorable="d"
-    d:DesignHeight="300" d:DesignWidth="300"
-    DataContext="{x:Static controllers:BookingsController.Instance}">
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:PereMaria.GestorHotel.Views"
+             xmlns:controllers="clr-namespace:PereMaria.GestorHotel.Controllers"
+             mc:Ignorable="d"
+             DataContext="{x:Static controllers:BookingsController.Instance}">
     <Grid>
-        <TextBlock Text="BookingsFormView Works!"
-            HorizontalAlignment="Center"
-            VerticalAlignment="Center"
-            FontSize="24" />
+        <StackPanel>
+            <Label>Id de la reserva</Label>
+            <TextBox Text="{Binding CurrentBooking.RoomId}" IsEnabled="False"></TextBox>
+            
+            <Label>Habitación</Label>
+            <TextBox Text="{Binding CurrentBooking.RoomId}"></TextBox>
+
+            <Label>Usuario</Label>
+            <TextBox Text="{Binding CurrentBooking.UserId}" IsEnabled="False"></TextBox>
+
+            <Label>Fecha de inicio</Label>
+            <TextBox Text="{Binding CurrentBooking.StartDate}"></TextBox>
+
+            <Label>Fecha de fin</Label>
+            <TextBox Text="{Binding CurrentBooking.EndDate}"></TextBox>
+
+            <Label>Cantidad de huespedes</Label>
+            <TextBox Text="{Binding CurrentBooking.Occupants}"></TextBox>
+
+            <Label>Precio por noche</Label>
+            <TextBox Text="{Binding CurrentBooking.PricePerNight}" IsEnabled="False"></TextBox>
+
+            <Label>Precio total</Label>
+            <TextBox Text="{Binding CurrentBooking.TotalPrice}" IsEnabled="False"></TextBox>
+
+            <Label>Porcentaje de descuento</Label>
+            <TextBox Text="{Binding CurrentBooking.Discount}" IsEnabled="False"></TextBox>
+
+            <Label>Cantidad de noches</Label>
+            <TextBox Text="{Binding CurrentBooking.TotalNights}" IsEnabled="False"></TextBox>
+
+            <Label>Estado de la reserva</Label>
+            <TextBox Text="{Binding CurrentBooking.Status}" IsEnabled="False"></TextBox>
+            
+            <Button Click="OnAddClick">Guardar</Button>
+            <Button Click="OnBackClick">Atras</Button>
+        </StackPanel>
     </Grid>
 </UserControl>
