@@ -6,12 +6,29 @@
              xmlns:local="clr-namespace:PereMaria.GestorHotel.Views"
              xmlns:controllers="clr-namespace:PereMaria.GestorHotel.Controllers"
              mc:Ignorable="d"
-             d:DesignHeight="300" d:DesignWidth="300"
              DataContext="{x:Static controllers:BookingsController.Instance}">
-        <Grid>
-        <TextBlock Text="BookingsView Works!"
-            HorizontalAlignment="Center"
-            VerticalAlignment="Center"
-            FontSize="24" />
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="0" Click="OnNewClick">Nuevo</Button>
+        <ListView Grid.Row="1" ItemsSource="{Binding Bookings}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Id" DisplayMemberBinding="{Binding BookingId}"></GridViewColumn>
+                    <GridViewColumn Header="Habitación" DisplayMemberBinding="{Binding RoomId}"></GridViewColumn>
+                    <GridViewColumn Header="Cliente" DisplayMemberBinding="{Binding UserId}"></GridViewColumn>
+                    <GridViewColumn Header="Fecha de Inicio" DisplayMemberBinding="{Binding StartDate}"></GridViewColumn>
+                    <GridViewColumn Header="Fecha de Fin" DisplayMemberBinding="{Binding EndDate}"></GridViewColumn>
+                    <GridViewColumn Header="Fecha de Reserva" DisplayMemberBinding="{Binding BookingDate}"></GridViewColumn>
+                    <GridViewColumn Header="# de Huespedes" DisplayMemberBinding="{Binding Occupants}"></GridViewColumn>
+                    <GridViewColumn Header="Precio Por noche" DisplayMemberBinding="{Binding PricePerNight}"></GridViewColumn>
+                    <GridViewColumn Header="Precio Total" DisplayMemberBinding="{Binding TotalPrice}"></GridViewColumn>
+                    <GridViewColumn Header="Porcentaje de descuento" DisplayMemberBinding="{Binding Discount}"></GridViewColumn>
+                    <GridViewColumn Header="Cantidad de noches" DisplayMemberBinding="{Binding TotalNights}"></GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </UserControl>

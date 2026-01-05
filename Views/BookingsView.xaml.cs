@@ -8,4 +8,10 @@ public partial class BookingsView : UserControl
     {
         InitializeComponent();
     }
+
+    private void OnNewClick(object sender, System.Windows.RoutedEventArgs e)
+    {
+        // Navegar al formulario de nueva reserva
+        Services.NavigationService.Instance.NavigateTo<BookingsFormView>();
+    }
 }
