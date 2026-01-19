@@ -12,13 +12,13 @@
             <StackPanel Orientation="Vertical"
                         TextElement.Foreground="{StaticResource Text-Primary}">
                 <StackPanel Orientation="Horizontal">
-                    <Image Source="/Resources/logo.png" Width="100" />
+                    <Image Source="/Resources/logo.png" Width="100"/>
                     <StackPanel VerticalAlignment="Center" Margin="0 25">
                         <TextBlock FontSize="16" FontWeight="Bold">Hotel Pere Maria</TextBlock>
                         <TextBlock FontSize="10">Dashboard</TextBlock>
                     </StackPanel>
                 </StackPanel>
-                <Border Height="1" Background="{StaticResource Text-Muted}" />
+                <Border Height="1" Background="{StaticResource Text-Muted}"/>
                 <!-- Navigation Menu -->
                 <ListBox
                     ItemsSource="{Binding Source={x:Static controller:NavigationController.Instance}, Path=MenuItems}"
@@ -40,11 +40,8 @@
                         </DataTemplate>
                     </ListBox.ItemTemplate>
                 </ListBox>
-                <Button Style="{StaticResource NavButtonStyle}" Click="PaletteButton_Click">
-                    <TextBlock>Paleta y Elementos</TextBlock>
-                </Button>
             </StackPanel>
         </Border>
-        <Border Width="1" Background="{StaticResource Nav-Border}" />
+        <Border Width="1" Background="{StaticResource Nav-Border}"/>
     </StackPanel>
 </UserControl>

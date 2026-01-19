@@ -7,7 +7,6 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/Resources/Styles.xaml"></ResourceDictionary>
                 <ResourceDictionary Source="/Resources/NavButtonStyles.xaml"></ResourceDictionary>
-                <ResourceDictionary Source="/Resources/Components.xaml"></ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

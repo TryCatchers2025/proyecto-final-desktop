@@ -1,5 +1,4 @@
-﻿    <!-- Los estilos de componentes han sido movidos a Components.xaml -->
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <!--#region Base Colors (Cosmic Theme) -->
@@ -59,8 +58,5 @@
     <!--#region Typography -->
     <FontFamily x:Key="Font-Primary">Montserrat</FontFamily>
     <!--#endregion-->
-
-
-
 
 </ResourceDictionary>

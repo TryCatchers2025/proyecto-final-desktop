@@ -1,5 +1,4 @@
 ﻿using System.Windows.Controls;
-using Views;
 
 namespace PereMaria.GestorHotel.Components;
 
@@ -10,8 +9,5 @@ public partial class NavigationBar : UserControl
         InitializeComponent();
     }
 
-    private void PaletteButton_Click(object sender, System.Windows.RoutedEventArgs e)
-    {
-        Services.NavigationService.Instance.NavigateTo<PreviewControlsView>();
-    }
+ 
 }
