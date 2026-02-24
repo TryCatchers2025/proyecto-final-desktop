@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="ApiUri" Type="(Web Service URL)" Scope="Application">
-      <Value Profile="(Default)">http://localhost:3000/api/</Value>
+      <Value Profile="(Default)">http://vps-7c25fcfc.vps.ovh.ca/hotel/api/</Value>
     </Setting>
   </Settings>
 </SettingsFile>
