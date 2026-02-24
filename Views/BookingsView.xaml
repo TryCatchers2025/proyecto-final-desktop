@@ -185,10 +185,17 @@
                                             Grid.Column="1"
                                             Style="{StaticResource TableMutedText}"
                                             VerticalAlignment="Center" />
-                                        <TextBlock Text="{Binding Room.Name}"
+                                        <TextBlock
                                             Grid.Column="2"
                                             Style="{StaticResource TableMainText}"
-                                            VerticalAlignment="Center" />
+                                            VerticalAlignment="Center">
+                                            <TextBlock.Text>
+                                                <MultiBinding StringFormat="{}{0} - {1}">
+                                                    <Binding Path="Room.Name"></Binding>
+                                                    <Binding Path="Room.Type"></Binding>
+                                                </MultiBinding>
+                                            </TextBlock.Text>
+                                        </TextBlock>
                                         <TextBlock Text="{Binding StartDate}"
                                             Grid.Column="3"
                                             Style="{StaticResource TableMutedText}"

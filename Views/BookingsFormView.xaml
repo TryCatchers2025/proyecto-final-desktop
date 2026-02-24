@@ -66,9 +66,16 @@
             </Border>
         </DataTemplate>
         <DataTemplate x:Key="RoomDropdownItemTemplate">
-            <TextBlock Text="{Binding Name}"
+            <TextBlock
                 Foreground="#2F2F2F"
-                FontSize="14" />
+                FontSize="14" >
+                <TextBlock.Text>
+                    <MultiBinding StringFormat="{}{0} - {1}" >
+                        <Binding Path="Name"></Binding>
+                        <Binding Path="Type"></Binding>
+                    </MultiBinding>
+                </TextBlock.Text>
+            </TextBlock>
         </DataTemplate>
     </UserControl.Resources>
     <Grid>
@@ -88,7 +95,7 @@
                 VerticalAlignment="Center"
                 Margin="10 0"
                 Visibility="{Binding IsEditing, Converter={StaticResource BoolToVisibility}}">
-                <TextBlock Text="{Binding CurrentBooking.BookingId}"></TextBlock>
+                <TextBlock Text="{Binding BookingTrackNumber}"></TextBlock>
             </Border>
             <Button DockPanel.Dock="Right"
                 Style="{StaticResource PrimaryButtonStyle}"

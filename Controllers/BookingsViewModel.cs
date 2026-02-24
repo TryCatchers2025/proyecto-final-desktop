@@ -287,7 +287,7 @@ public class BookingsViewModel : BaseViewModel
 
             if (_selectedRoom != null && !string.IsNullOrWhiteSpace(_roomSearchText))
             {
-                var name = _selectedRoom.Name ?? string.Empty;
+                var name = $"{_selectedRoom.Name} - {_selectedRoom.Type}";
                 if (!name.StartsWith(_roomSearchText, StringComparison.OrdinalIgnoreCase))
                 {
                     SelectedRoom = null;
@@ -335,7 +335,7 @@ public class BookingsViewModel : BaseViewModel
             if (_selectedRoom != null)
             {
                 _suppressRoomSearchClear = true;
-                RoomSearchText = _selectedRoom.Name ?? "";
+                RoomSearchText = $"{_selectedRoom.Name} - {_selectedRoom.Type}";
                 _suppressRoomSearchClear = false;
             }
 
@@ -757,9 +757,10 @@ public class BookingsViewModel : BaseViewModel
             SelectedRoom = match;
         }
 
-        var displayName = match?.Name ?? CurrentBooking.Room?.Name ?? CurrentBooking.RoomId;
+        var roomName = match?.Name ?? CurrentBooking.Room?.Name ?? CurrentBooking.RoomId;
+        var roomType = match?.Type ?? CurrentBooking.Room?.Type ?? CurrentBooking.RoomId;
         _suppressRoomSearchClear = true;
-        RoomSearchText = displayName ?? "";
+        RoomSearchText = $"{roomName} - {roomType}";
         _suppressRoomSearchClear = false;
     }
 
