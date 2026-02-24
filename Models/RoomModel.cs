@@ -17,7 +17,7 @@ public class RoomModel
 
 	[JsonProperty("pricePerNight")] public double PricePerNight { get; set; }
 
-	[JsonProperty("occuped")] public bool Occuped { get; set; }
+	[JsonProperty("occuped")] public Boolean Occuped { get; set; }
     
     [JsonProperty("occupancyLimit")] public int OccupancyLimit { get; set; }
 

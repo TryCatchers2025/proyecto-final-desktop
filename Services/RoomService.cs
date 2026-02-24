@@ -10,26 +10,17 @@ namespace PereMaria.GestorHotel.Services;
 /// </summary>
 public class RoomService
 {
-    /*public async Task<ApiResult<List<RoomModel>>> GetAllRooms(string name, bool? occuped)
+    private static RoomService? _instance;
+    public static RoomService Instance => _instance ??= new RoomService();
+
+    public RoomService() { }
+
+    /// <summary>
+    /// Recupera todas las habitaciones disponibles en backend.
+    /// </summary>
+    public async Task<ApiResult<List<RoomModel>>> GetAllRooms()
     {
-        return await ApiService.Instance.Get<List<RoomModel>>($"rooms?name={name}&occuped={occuped.ToString()}");
-    }*/
-
-    public async Task<ApiResult<List<RoomModel>>> GetAllRooms(string? name, bool? occuped)
-    {
-        var url = "rooms";
-        var query = new List<string>();
-
-        if (!string.IsNullOrWhiteSpace(name))
-            query.Add($"name={Uri.EscapeDataString(name)}");
-
-        if (occuped.HasValue)
-            query.Add($"occuped={occuped.Value.ToString().ToLower()}");
-
-        if (query.Count > 0)
-            url += "?" + string.Join("&", query);
-
-        return await ApiService.Instance.Get<List<RoomModel>>(url);
+        return await ApiService.Instance.Get<List<RoomModel>>("rooms");
     }
 
     /// <summary>

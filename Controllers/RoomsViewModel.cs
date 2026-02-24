@@ -5,7 +5,6 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.Intrinsics.Arm;
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Input;
 using System.Xml.Linq;
 
@@ -30,55 +29,9 @@ public class RoomsViewModel : BaseViewModel
     // La lista de todas las rooms
     public ObservableCollection<RoomModel> Rooms { get; } = new();
 
-    // Filtos
-    //Nombre
-    private string _searchName;
-    public string SearchName
-    {
-        get => _searchName;
-        set
-        {
-            _searchName = value;
-            OnPropertyChanged(nameof(SearchName));
-            _ = LoadRooms();
-        }
-    }
-
-    //Ocupacion
-    private string _filterOccuped;
-    public string FilterOccuped
-    {
-        get => _filterOccuped;
-        set
-        {
-            _filterOccuped = value;
-            OnPropertyChanged(nameof(FilterOccuped));
-            _ = LoadRooms();
-        }
-    }
-
-    public List<string> OccupedFilters { get; } = new()
-    {
-        "", "Libre", "Ocupado"
-    };
-    private bool? ParseOccupedFilter()
-    {
-        return FilterOccuped switch
-        {
-            "Libre" => false,
-            "Ocupado" => true,
-            _ => null
-        };
-    }
-
-
-    //Cargar las habitaciones
     public async Task LoadRooms()
     {
-        bool? occuped = ParseOccupedFilter();
-        string name = SearchName;
-
-        var result = await _roomService.GetAllRooms(name, occuped);
+        var result = await _roomService.GetAllRooms();
 
         if (result.Success && result.Data != null)
         {
@@ -183,22 +136,16 @@ public class RoomsViewModel : BaseViewModel
             if (MessageBox.Show("¿Seguro?", "Confirmación", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
             {
                 //ELIMINAR (DELETE)
-                if (!CurrentRoom.Occuped)
-                {
-                    var result = await _roomService.DeleteRoom(CurrentRoom.RoomId);
-                    if (!result.Success)
-                    {
-                        MessageBox.Show(result.Error?.Message ?? "Error eliminando habitación");
-                        return;
-                    }
+                var result = await _roomService.DeleteRoom(CurrentRoom.RoomId);
 
-                    await LoadRooms();
-                    NavigationViewModel.Instance.BackCommand.Execute(null);
-                }else{
-                    MessageBox.Show("No se puede eliminar habitaciones reservadas", "Habitacion Ocupada", MessageBoxButton.OK, MessageBoxImage.Error);
+                if (!result.Success)
+                {
+                    MessageBox.Show(result.Error?.Message ?? "Error eliminando habitación");
                     return;
                 }
-                
+
+                await LoadRooms();
+                NavigationViewModel.Instance.BackCommand.Execute(null);
             }
             else { return; }   
         }
@@ -214,7 +161,5 @@ public class RoomsViewModel : BaseViewModel
     private RelayCommand deleteCommand;
     public ICommand DeleteCommand => deleteCommand ??= new RelayCommand(Delete);
 
-
-  
 
 }
