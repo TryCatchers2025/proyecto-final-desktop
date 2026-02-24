@@ -7,32 +7,36 @@
       "RelativeMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|solutionrelative:views\\roomsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|c:\\users\\guiangmol\\source\\repos\\proyecto-final-desktop\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|solutionrelative:services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|c:\\users\\guiangmol\\source\\repos\\proyecto-final-desktop\\controllers\\roomsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|solutionrelative:controllers\\roomsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|c:\\users\\guiangmol\\source\\repos\\proyecto-final-desktop\\controllers\\bookingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|solutionrelative:controllers\\bookingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|c:\\users\\guiangmol\\source\\repos\\proyecto-final-desktop\\services\\bookingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|solutionrelative:services\\bookingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|c:\\users\\guiangmol\\source\\repos\\proyecto-final-desktop\\models\\roommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|solutionrelative:models\\roommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|c:\\users\\guiangmol\\source\\repos\\proyecto-final-desktop\\components\\habitaciones.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|solutionrelative:components\\habitaciones.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|c:\\users\\guiangmol\\source\\repos\\proyecto-final-desktop\\views\\roomsformview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|solutionrelative:views\\roomsformview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|c:\\users\\guiangmol\\source\\repos\\proyecto-final-desktop\\components\\habitaciones.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|solutionrelative:components\\habitaciones.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|c:\\users\\guiangmol\\source\\repos\\proyecto-final-desktop\\controllers\\roomsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|solutionrelative:controllers\\roomsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|c:\\users\\guiangmol\\source\\repos\\proyecto-final-desktop\\services\\bookingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|solutionrelative:services\\bookingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|c:\\users\\guiangmol\\source\\repos\\proyecto-final-desktop\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|solutionrelative:services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|c:\\users\\guiangmol\\source\\repos\\proyecto-final-desktop\\models\\roommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|solutionrelative:models\\roommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|c:\\users\\guiangmol\\source\\repos\\proyecto-final-desktop\\views\\roomsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|solutionrelative:views\\roomsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|c:\\users\\guiangmol\\source\\repos\\proyecto-final-desktop\\components\\habitaciones.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E759ADA-5ACD-4F30-81A1-F75AB6EEB0DF}|proyecto-final-desktop.csproj|solutionrelative:components\\habitaciones.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,6 +48,48 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoomModel.cs",
+              "DocumentMoniker": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Models\\RoomModel.cs",
+              "RelativeDocumentMoniker": "Models\\RoomModel.cs",
+              "ToolTip": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Models\\RoomModel.cs",
+              "RelativeToolTip": "Models\\RoomModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T17:45:52.067Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoomsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Controllers\\RoomsViewModel.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoomsViewModel.cs",
+              "ToolTip": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Controllers\\RoomsViewModel.cs",
+              "RelativeToolTip": "Controllers\\RoomsViewModel.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:31:11.489Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoomService.cs",
+              "DocumentMoniker": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Services\\RoomService.cs",
+              "RelativeDocumentMoniker": "Services\\RoomService.cs",
+              "ToolTip": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Services\\RoomService.cs",
+              "RelativeToolTip": "Services\\RoomService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T17:35:33.235Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -58,70 +104,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RoomModel.cs",
-              "DocumentMoniker": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Models\\RoomModel.cs",
-              "RelativeDocumentMoniker": "Models\\RoomModel.cs",
-              "ToolTip": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Models\\RoomModel.cs",
-              "RelativeToolTip": "Models\\RoomModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T17:45:52.067Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RoomsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Controllers\\RoomsViewModel.cs",
-              "RelativeDocumentMoniker": "Controllers\\RoomsViewModel.cs",
-              "ToolTip": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Controllers\\RoomsViewModel.cs",
-              "RelativeToolTip": "Controllers\\RoomsViewModel.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAMwE0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T15:31:11.489Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RoomService.cs",
-              "DocumentMoniker": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Services\\RoomService.cs",
-              "RelativeDocumentMoniker": "Services\\RoomService.cs",
-              "ToolTip": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Services\\RoomService.cs",
-              "RelativeToolTip": "Services\\RoomService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T17:35:33.235Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "BookingsService.cs",
               "DocumentMoniker": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Services\\BookingsService.cs",
               "RelativeDocumentMoniker": "Services\\BookingsService.cs",
               "ToolTip": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Services\\BookingsService.cs",
               "RelativeToolTip": "Services\\BookingsService.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAhwMwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T19:48:34.531Z",
+              "WhenOpened": "2026-02-17T17:52:34.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BookingsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Controllers\\BookingsViewModel.cs",
-              "RelativeDocumentMoniker": "Controllers\\BookingsViewModel.cs",
-              "ToolTip": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Controllers\\BookingsViewModel.cs",
-              "RelativeToolTip": "Controllers\\BookingsViewModel.cs",
-              "ViewState": "AgIAAEkCAAAAAAAAAAAewF0CAAAHAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "RoomsView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Views\\RoomsView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\RoomsView.xaml.cs",
+              "ToolTip": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Views\\RoomsView.xaml.cs",
+              "RelativeToolTip": "Views\\RoomsView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T19:48:21.401Z",
+              "WhenOpened": "2026-02-11T19:12:00.744Z",
               "EditorCaption": ""
             },
             {
@@ -130,15 +134,15 @@
               "Title": "RoomsView.xaml",
               "DocumentMoniker": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Views\\RoomsView.xaml",
               "RelativeDocumentMoniker": "Views\\RoomsView.xaml",
-              "ToolTip": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Views\\RoomsView.xaml*",
-              "RelativeToolTip": "Views\\RoomsView.xaml*",
+              "ToolTip": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Views\\RoomsView.xaml",
+              "RelativeToolTip": "Views\\RoomsView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-01-23T17:00:34.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "RoomsFormView.xaml",
               "DocumentMoniker": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Views\\RoomsFormView.xaml",
               "RelativeDocumentMoniker": "Views\\RoomsFormView.xaml",
@@ -150,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Habitaciones.xaml",
               "DocumentMoniker": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Components\\Habitaciones.xaml",
               "RelativeDocumentMoniker": "Components\\Habitaciones.xaml",
@@ -159,6 +163,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-02-11T18:17:39.065Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Habitaciones.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Components\\Habitaciones.xaml.cs",
+              "RelativeDocumentMoniker": "Components\\Habitaciones.xaml.cs",
+              "ToolTip": "C:\\Users\\guiangmol\\source\\repos\\proyecto-final-desktop\\Components\\Habitaciones.xaml.cs",
+              "RelativeToolTip": "Components\\Habitaciones.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T19:02:42.273Z"
             }
           ]
         }
